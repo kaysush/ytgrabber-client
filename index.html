@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>YTDownloader - A mess free YouTube video downloader</title>
+	<script src="js/jquery.js"></script>
+	<script src = "js/jqueryui.min.js"></script>
+	<script type="text/javascript" src = "js/main.js"></script>
+	<link rel = "stylesheet" href = "css/main.css"></link>
+	<link rel = "stylesheet" href = "css/jqueryui.min.css"></link>
+</head>
+<body>
+	<div id = "container" >
+		<div id = "status"></div>
+		<h1 id = "title"></h1>
+		<img id = "thumbnail"/>
+		<form>
+			<input id = "yturl" type = "text" title = "YouTube video url"/>
+			<a id = "download" href = "#" title = "Click to generate download links" >Download</a>
+			<image id = "loader" src = "images/ajax-loader.gif"/>
+		</form>
+	</div>
+	<div id = "response"></div>
+</body>
+</html>
